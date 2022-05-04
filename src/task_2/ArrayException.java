@@ -7,7 +7,7 @@ public class ArrayException {
     public static void main(String[] args) {
 
         double[] priceArray = {22.37, 36.35, 20.15, 38.78, 18.16};
-        System.out.println("Please, choose the number of the day from offered");
+        System.out.println("Please, choose the number of the day from offered: ");
         for (int i = 0; i < priceArray.length; i++) {
             System.out.print(i + 1 + " ");
         }
@@ -15,7 +15,6 @@ public class ArrayException {
         Scanner scanner = new Scanner(System.in);
 
         getUserInput(scanner, priceArray);
-
     }
 
 
